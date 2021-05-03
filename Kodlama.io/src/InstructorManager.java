@@ -1,20 +1,22 @@
 
 public class InstructorManager extends UserManager{
 
-	
-	
-	
+	@Override
 	public void add(User user) {
-		System.out.println(user.firstName+ " Instructor added");
+		// TODO Auto-generated method stub
+		super.add(user);
 	}
-	
 
+	@Override
 	public void delete(User user) {
-		System.out.println(user.firstName+ " Instructor deleted");
+		// TODO Auto-generated method stub
+		super.delete(user);
 	}
-	
-	
+
+	@Override
 	public void update(User user) {
-		System.out.println(user.firstName+ " Instructor updated");
+		// TODO Auto-generated method stub
+		super.update(user);
 	}
+
 }
